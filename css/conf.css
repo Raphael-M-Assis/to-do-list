@@ -1,0 +1,258 @@
+/* Confs CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+input::placeholder {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.logo {
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+.lista-tarefas {
+    margin: auto;
+    display: block;
+    width: 800px;
+    overflow-x: hidden;
+}
+
+.concluidas {
+    text-decoration: line-through;
+    display: inline-block;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.concluidas div{
+    position: relative;
+    width: 800px;
+    border: 1px solid #A7A7A7;
+    background-color: white;
+    margin-bottom: 5px;
+    height: 50px;
+}
+
+.deleteIcon {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.meu-checkbox {
+    position: relative;
+    top: 15px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.lista {
+    display: inline-block;
+    margin: auto;
+}
+
+.lista div {
+    display: flex;
+    width: 800px;
+    border: 1px solid #A7A7A7;
+    background-color: white;
+    margin-bottom: 5px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.label {
+    margin: auto 0;
+    margin-left: 10px;
+}
+
+.labelCompletedTask {
+    position: relative;
+    top: 14px;
+    left: 10px;
+}
+
+
+.task-plus {
+    background-color: white;
+}
+
+@media (max-width: 700px) {
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.toogle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.toogle-img {
+    width: 50px;
+    height: 50px;
+}
+
+.tarefas-container {
+    margin: 100px;
+}
+
+}
+
+@media (max-width: 450px) {
+
+.logo {
+    width: 100%;
+}
+
+}
+
+@media (max-width: 820px) {
+    .lista-tarefas {
+        width: 100%;
+    }
+    
+}
+
+.tarefas-container {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    display: block;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+.tarefas-container div {
+    display: flex;
+}
+
+.tarefas-container input {
+    height: 50px;
+    width: 750px;
+    border: 1px solid #A7A7A7;
+    border-left: none;
+}
+
+.tarefas-container img {
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #A7A7A7;
+    border-right: 0;
+}
+
+.footer {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer {
+    padding: 5px;   
+    width: 850px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    color:#ACACAC;
+    font-size: 20px;
+}
+
+.toogle, .box-color {
+    display: inline-flex;
+}
+
+
+.box-color .box-azul {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    background-color: #DAF5FA;
+    border: 1px solid black;
+
+}
+
+.box-color .box-verde {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    background-color: #D1FECB;
+    border: 1px solid black;
+
+}
+
+.box-color .box-rosa {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    background-color: #F6D0F6;
+    border: 1px solid black;
+
+}
+
+.box-color .box-roxo {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    background-color: #DCD0F3;
+    border: 1px solid black;
+
+}
+
+.box-color .box-amarelo {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    background-color: #FCFCCB;
+    border: 1px solid black;
+
+}
+
+.box-color .box-laranja {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    background-color: #FBD4B4;
+    border: 1px solid black;
+
+}
+
+.box-color .box-branco {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+}
